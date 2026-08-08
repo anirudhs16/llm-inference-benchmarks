@@ -53,7 +53,7 @@ Use when: building RAG pipelines, semantic search, or similarity retrieval.
 
 Use when: self-hosting open-weight models in production.
 
-| Framework | Best For | GPU Required | Key Feature | Throughput | Ease of Use | You've Used It |
+| Framework | Best For | GPU Required | Key Feature | Throughput | Ease of Use | I've Used It |
 |-----------|---------|-------------|-------------|-----------|------------|----------------|
 | Ollama | Local development, demos | No (CPU works) | Dead-simple model management | Low (sequential) | ★★★★★ | ✓ Benchmarked |
 | vLLM | Production serving, high concurrency | Yes | PagedAttention + continuous batching | Very high | ★★★☆☆ | ✓ Benchmarked (99× vs Ollama) |
@@ -68,7 +68,7 @@ Use when: self-hosting open-weight models in production.
 
 Use when: building multi-step AI workflows, RAG pipelines, or agents.
 
-| Framework | Best For | Language | Key Feature | You've Used It |
+| Framework | Best For | Language | Key Feature | I've Used It |
 |-----------|---------|---------|-------------|----------------|
 | LangChain | RAG pipelines, chains, agents | Python/JS | Largest ecosystem, most integrations | Indirectly |
 | LangGraph | Stateful multi-agent workflows | Python | Graph-based agent orchestration, cycles | ✓ Production (Conflux) |
